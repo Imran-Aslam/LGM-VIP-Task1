@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.carousel {
+    height: 95vh;
+    position: relative;
+}
+
+.carousel-item img {
+    height: 95vh;
+}
+
+header .container {
+    padding: 5% 10% 0% 22%;
+    position: absolute;
+    bottom: 84%;
+    /* left: 10%; */
+    /* background: transparent; */
+}
+
+.nav-link,
+.nav-item {
+    color: white;
+}
+
+.nav-item:hover,
+.nav-link:hover {
+    color: rgb(251, 251, 97);
+}
+
+.text-container {
+    position: absolute;
+    top: 190%;
+    width: 35%;
+}
+
+.btn1 {
+    background: rgb(251, 251, 97);
+    color: black;
+}
+
+.btn2 {
+    background: purple;
+    color: white;
+}
+
+.btn2:hover {
+    background: rgb(251, 251, 97);
+    color: black;
+}
+
+#welcome-part .container {
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+}
+
+.card-part {
+    padding: 5% 0 5% 0;
+    border-bottom: 2px solid rgb(185, 181, 181);
+}
+
+.fa-icon {
+    background: purple;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+
+/* Project CSS */
+
+.project-section {
+    padding-bottom: 5%;
+}
+
+.project-card {
+    background-color: rgb(245, 243, 243);
+}
+
+.project-card:hover {
+    background-color: rgb(251, 251, 97);
+}
+
+
+/* pricing card CSS */
+
+.pricing-section {
+    margin: 0 20%;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 0%;
+    border-right: 1px solid lightgrey;
+}
+
+
+/* Video Section CSS start here  */
+
+.video-section {
+    background-color: purple;
+    color: white;
+}
+
+.video-carousel {
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+
+/* Team Section CSS */
+
+.team-section .container {
+    padding: 5% 10% 3% 10%;
+}
+
+.member-image {
+    position: relative;
+}
+
+.icons {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    font-size: 30px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.member-image:hover {
+    opacity: 0.6;
+}
+
+.member-image:hover .icons {
+    color: purple;
+    opacity: 1;
+}
+
+
+/* Life Section  */
+
+.life-section {
+    background-color: rgb(245, 243, 243);
+}
+
+.life-section .container {
+    padding: 5% 10% 5% 10%;
+}
+
+
+/* Newsletter Section CSS  */
+
+.newsletter-section .bridge-image {
+    height: 300px;
+    background-image: url("./images/newsletter.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    color: white;
+}
+
+
+/* Blog Section CSS */
+
+.blog-section .container {
+    padding: 5% 10% 5% 10%;
+}
+
+
+/* Contact Section CSS */
+
+.contact-section {
+    background-color: rgb(255, 237, 73);
+}
+
+
+/* Footer CSS */
+
+footer {
+    background-color: rgb(245, 243, 243);
+}
+
+footer .container {
+    padding: 5% 10% 5% 10%;
+}
+
+
+/* Media query for header tag  */
+
+@media only screen and (max-width: 600px) {
+    header .container {
+        /* bottom: 80%; */
+        top: 5%;
+    }
+    .collapse {
+        background: purple;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    .text-container {
+        width: 60%;
+        top: 220%;
+    }
+    .card-column {
+        padding-top: 10%;
+        padding-left: 10%;
+    }
+    .pricing-card {
+        border: none;
+    }
+    .map {
+        padding-left: 6%;
+    }
+    .contact-form {
+        padding-left: 6%;
+        padding-bottom: 3%;
+    }
+}

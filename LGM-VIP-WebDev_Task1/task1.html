@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- FONT AWESOME ICON CDN  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <title>Zippy</title>
+    <!-- CSS FILE  -->
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/background.jpg" class="d-block img-fluid w-100" alt="background-image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/background.jpg" class="d-block img-fluid w-100" alt="background-image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/background.jpg" class="d-block img-fluid w-100" alt="background-image">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bolder fs-2 text-white" href="#">Zippy</a>
+                    <button class="navbar-toggler text-dark bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon pt-1"><i class="fas fa-bars"></i> </span>
+                    </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#product">Product</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#price" tabindex="-1" aria-disabled="true">Pricing</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Team</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#blog" tabindex="-1" aria-disabled="true">Blog</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="text-container">
+                <div class="text-body">
+                    <div class="content text-white">
+                        <h1 class="fw-bold">One page promissing to fill all your needs!</h1>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        </p>
+                    </div>
+                    <div class="btn">
+                        <button class="btn btn1">Learn More
+                        </button>
+                        <button class="btn btn2">Learn More
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+    </header>
+    <section id="welcome-part">
+        <div class="container">
+            <h1 class="fw-bold pb-5">Welcome to Zippy</h1>
+            <div class="row pt-4">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="welcome-text fs-5" style="text-align: justify;">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                            specimen book.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="./images/umbrella.png" class="img-fluid w-50" alt="umbrela">
+                </div>
+            </div>
+            <!-- Card Part Start Here  -->
+            <div class="card-part">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-sm-3 card-column">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div>
+                                <i class="far fa-envelope fa-icon"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4 py-2" style="color: purple;">Lorem Ipsum</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="pt-3">
+                                    <a href="#" class="btn btn2">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-sm-3 card-column">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div>
+                                <i class="far fa-bell fa-icon"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4 py-2" style="color: purple;">Dolor Sit</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="pt-3">
+                                    <a href="#" class="btn btn1">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-sm-3 card-column">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div>
+                                <i class="fas fa-store fa-icon"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4 py-2" style="color: purple;">Lorem Ipsum</h5>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="pt-3 ">
+                                    <a href="# " class="btn btn1 ">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project section 
+    Start Here  -->
+    <section class="project-section" id="project">
+        <h1 class="fw-bold pb-5 text-center">Projects</h1>
+
+        <div class="row g-0">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 g-0 pt-sm-3">
+                <div class="card border-0 project-card">
+                    <img src="./images/project1.jpg" class="img-fluid w-100" alt="project image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title fw-bold">Project Name</h5>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-warning">Launch Case Study</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 pt-sm-3">
+                <div class="card border-0 project-card" style="background: rgb(251, 251, 97);">
+                    <img src="./images/project2.jpg" class="img-fluid w-100" alt="project image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title fw-bold">Project Name</h5>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn2">Launch Case Study</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 pt-sm-3">
+                <div class="card border-0 project-card">
+                    <img src="./images/project3.jpg" class=" img-fluid w-100" alt="project image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title fw-bold">Project Name</h5>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-warning">Launch Case Study</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12 pt-sm-3">
+                <div class="card border-0 project-card">
+                    <img src="./images/project1.jpg" class="img-fluid w-100" alt="project image">
+                    <div class="card-body p-5">
+                        <h5 class="card-title fw-bold">Project Name</h5>
+                        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-outline-warning">Launch Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing section 
+    Start Here  -->
+    <section class="pricing-section p-5" id="price">
+        <h1 class="fw-bold text-center pb-4">Pricing Table</h1>
+        <div class="container text-center">
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h5 class="mb-3 fw-bold">Standard Plan</h5>
+                            <h6 class="text-muted">FREE</h6>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>10 users included</li>
+                                <li>2 GB of storage</li>
+                                <li>Email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-block btn2">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-card">
+                        <div class="card-body">
+                            <h5 class="mb-3 fw-bold">Business Plan</h5>
+                            <h6 class="text-muted">$19 / MONTH</h6>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>20 users included</li>
+                                <li>10 GB of storage</li>
+                                <li>Priority email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="btn btn-block btn1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h5 class="mb-3 fw-bold">Premimum Plan</h5>
+                            <h6 class="text-muted">$29 / MONTH</h6>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul> <button type="button" class="btn btn-block btn1">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Projects Section start Here -->
+    <section class="video-section pt-5 pb-5">
+        <h1 class="text-center fw-bold pt-4">Video Projects</h1>
+        <div class="container-fluid">
+            <div class="video-carousel">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pt-2">
+                        <iframe width="450" height="315" class="ps-4" src="https://www.youtube.com/embed/htqXL94Rza4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pt-2">
+                        <iframe width="450" height="315" src="https://www.youtube.com/embed/htqXL94Rza4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 pt-2">
+                        <iframe width="450" height="315" src="https://www.youtube.com/embed/htqXL94Rza4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section Start Here  -->
+    <section class="team-section" id="team">
+        <div class="container text-center">
+            <h1 class="fw-bold">Zippy Team</h1>
+            <div class="row pt-4">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-2">
+                    <div class="img-block mb-5 member-image">
+                        <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                        <div class="content mt-2">
+                            <h4 class="fw-bold">Zain Knob</h4>
+                            <p class="text-muted">Mechanical Engineer</p>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="text-decoration-none" style="color: purple;">
+                                <i class="fab fa-facebook-f pe-3"></i>
+                                <i class="fab fa-twitter pe-2 ps-2"></i>
+                                <i class="fab fa-google-plus-g ps-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-2">
+                    <div class="img-block mb-5 member-image">
+                        <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" height="100px" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                        <div class="content mt-2">
+                            <h4 class="fw-bold">Syndia Lee</h4>
+                            <p class="text-muted">Software Engineer</p>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="text-decoration-none" style="color: purple;">
+                                <i class="fab fa-facebook-f pe-3"></i>
+                                <i class="fab fa-twitter pe-2 ps-2"></i>
+                                <i class="fab fa-google-plus-g ps-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-2">
+                    <div class="img-block mb-5 member-image">
+                        <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                        <div class="content mt-2">
+                            <h4 class="fw-bold">Noel Flantier</h4>
+                            <p class="text-muted">Joomla Specialist</p>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="text-decoration-none" style="color: purple;">
+                                <i class="fab fa-facebook-f pe-3"></i>
+                                <i class="fab fa-twitter pe-2 ps-2"></i>
+                                <i class="fab fa-google-plus-g ps-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-2">
+                    <div class="img-block mb-5 member-image">
+                        <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                        <div class="content mt-2">
+                            <h4 class="fw-bold">Bobby Doe</h4>
+                            <p class="text-muted">Street Artist</p>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="text-decoration-none" style="color: purple;">
+                                <i class="fab fa-facebook-f pe-3"></i>
+                                <i class="fab fa-twitter pe-2 ps-2"></i>
+                                <i class="fab fa-google-plus-g ps-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-2">
+                    <div class="img-block mb-5 member-image">
+                        <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                        <div class="content mt-2">
+                            <h4 class="fw-bold">Syndia Lee</h4>
+                            <p class="text-muted">Software Engineer</p>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="text-decoration-none" style="color: purple;">
+                                <i class="fab fa-facebook-f pe-3"></i>
+                                <i class="fab fa-twitter pe-2 ps-2"></i>
+                                <i class="fab fa-google-plus-g ps-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-2">
+                    <div class="img-block mb-5 member-image">
+                        <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" class="img-fluid  img-thumbnail rounded-circle" alt="image1">
+                        <div class="content mt-2">
+                            <h4 class="fw-bold">Zain Knob</h4>
+                            <p class="text-muted">Mechanical Engineer</p>
+                        </div>
+                        <div class="icons">
+                            <a href="#" class="text-decoration-none" style="color: purple;">
+                                <i class="fab fa-facebook-f pe-3"></i>
+                                <i class="fab fa-twitter pe-2 ps-2"></i>
+                                <i class="fab fa-google-plus-g ps-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Life Section  -->
+    <section class="life-section pb-sm-4">
+        <div class="container text-center">
+            <h1 class="fw-bold">Life in a Zippy</h1>
+            <div id="carouselExampleIndicators" class="carousel slide pt-3" data-bs-ride="carousel" style="height: 500px;">
+                <div class="carousel-indicators" style="text-indent: 0;">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" style="text-indent: 0; height: 50px; width: 80px;" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="./images/group1.jpg" class="img-fluid w-100" alt="group1-image">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" style="text-indent: 0; height: 50px; width: 80px;" data-bs-slide-to="1" aria-label="Slide 2">
+                        <img src="./images/group2.jpg" class="img-fluid w-100" alt="group2-image">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" style="text-indent: 0; height: 50px; width: 80px;" data-bs-slide-to="2" aria-label="Slide 3">
+                         <img src="./images/group3.jpg" class="img-fluid w-100" alt="group3-image">
+                    </button>
+                </div>
+                <div class="carousel-inner" style="height: 500px;">
+                    <div class="carousel-item active">
+                        <img src="./images/group1.jpg" class="img-fluid w-100" alt="group1-image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/group2.jpg" class="img-fluid w-100" alt="group2-image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/group3.jpg" class="img-fluid w-100" alt="group3-image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Newsletter Section  -->
+    <section class="newsletter-section">
+        <div class="bridge-image text-center">
+            <h1 class="fw-bold pt-5">Newsletter Signup</h1>
+            <form class="form needs-validation" validate>
+                <div class="input-group has-validation my-3 py-2 w-25 mx-auto">
+                    <input type="text" class="form-control rounded-0 rounded-start" placeholder="abc@gamil.com" required>
+                    <div class="input-group-append">
+                        <button class="btn btn2 rounded-0 rounded-end">Signup</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Blog Section  -->
+    <section class="blog-section pb-sm-4" id="blog">
+        <div class="container text-center">
+            <h1 class="fw-bold">Blog</h1>
+            <div class="card-part2 pt-2">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-sm-3 card-column">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div>
+                                <img src="./images/group4.jpg" class="img-fluid" alt="blog-image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4 py-2 fw-bold" style="color: Black;">Lorem Ipsum</h5>
+                                <p class="text-muted py-2">10 Aug, 2021</p>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="pt-3">
+                                    <a href="#" class="btn btn2">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-sm-3 card-column">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div>
+                                <img src="./images/group3.jpg" class="img-fluid" alt="blog-image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4 py-2 fw-bold" style="color: Black;">Dolor Sit</h5>
+                                <p class="text-muted py-2">10 Aug, 2021</p>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="pt-3">
+                                    <a href="#" class="btn btn1">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-sm-3 card-column">
+                        <div class="card border-0" style="width: 18rem;">
+                            <div>
+                                <img src="./images/group1.jpg" class="img-fluid" alt="blog-image">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title fs-4 py-2 fw-bold" style="color: Black;">Lorem Ipsum</h5>
+                                <p class="text-muted py-2">10 Aug, 2021</p>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="pt-3 ">
+                                    <a href="# " class="btn btn1 ">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section  -->
+    <section class="contact-section" id="contact">
+        <div class="container-fluid ps-0 m-0">
+            <div class="row g-0">
+                <div class="col-lg-6 col-12">
+                    <div class="map" style="height: 600px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14145736.790339021!2d60.33490209405818!3d30.04979348328978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1628789103547!5m2!1sen!2s"
+                            class="img-fluid" style="border:0; width: 95%; height: 600px" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 pt-3 contact-form">
+                    <h1 class="fw-bold pb-3">Contact</h1>
+                    <form class="row g-3 needs-validation" validate>
+                        <div class="col-12">
+                            <label for="validationCustom01" class="form-label fw-bold">Name</label>
+                            <input type="text" class="form-control w-50" id="validationCustom01" required>
+                            <div class="invalid-feedback">
+                                Please enter a name.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="validationCustomUsername" class="form-label fw-bold">Email Address</label>
+                            <input type="text" class="form-control w-50" id="validationCustomUsername" required>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="validationCustom03" class="form-label fw-bold">Subject</label>
+                            <input type="text" class="form-control w-50" id="validationCustom03" required>
+                            <div class="invalid-feedback">
+                                Please write the subject
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="validationTextarea" class="form-label fw-bold">Message</label>
+                            <textarea class="form-control w-50" id="validationTextarea" placeholder="Message" rows="5" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter a message in the textarea.
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn2 w-50" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer Section  -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-6 pt-3">
+                    <div class="office">
+                        <h6 class="fw-bold pb-3">Office Address</h6>
+                        <span>Lorem ipsum dolor, 1224</span><br>
+                        <span>1200 , South</span><br>
+                        <span>South Africa</span><br>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 pt-3">
+                    <div class="follow">
+                        <h6 class="fw-bold pb-3">Follow Us</h6>
+                        <div class="social-icons">
+                            <p>
+                                <a href="#" class="text-decoration-none" style="color: purple; font-size: 20px;">
+                                    <i class="fab fa-facebook-f pe-3"></i>
+                                    <i class="fab fa-twitter pe-2 ps-2"></i>
+                                    <i class="fab fa-google-plus-g ps-3"></i>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-decoration-none" style="color: purple; font-size: 20px;">
+                                    <i class="fab fa-linkedin-in pe-3"></i>
+                                    <i class="fab fa-instagram pe-2 ps-2"></i>
+                                    <i class="fab fa-slack ps-3"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-12 pt-4">
+                    <div class="col-md-4 col-sm-4 col-4">
+                        <div class="contact-us">
+                            <h6 class="fw-bold pb-3">Contact Us</h6>
+                            <span>+ 123 456 789</span><br>
+                            <span>Zippy@gmail.com</span><br>
+                            <span>Enquiry@zippy.com</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
